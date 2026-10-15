@@ -1,6 +1,5 @@
 n,Q=map(int,input().split())
 #print(n,k,t)
-
 s=list(map(int,input().split()))
 #print(d)
 n2=1
