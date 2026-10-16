@@ -2,6 +2,7 @@ def eratosthenes(n):
   isP = [1] * max(n + 1, 2)
   isP[0] = 0
   isP[1] = 0
+  
   for p in range(2, n + 1):
     if isP[p]==0:
       continue
